@@ -24,5 +24,10 @@ public class ApplicationController {
     {
         return "Pune";
     }
+    @GetMapping("/salary")
+    public String saySalary()
+    {
+        return "7.9lpa";
+    }
 
 }
