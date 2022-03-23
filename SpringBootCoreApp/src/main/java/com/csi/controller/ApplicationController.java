@@ -27,7 +27,14 @@ public class ApplicationController {
     @GetMapping("/salary")
     public String saySalary()
     {
+
         return "7.9lpa";
+    }
+    @GetMapping("/course")
+    public String sayCourse()
+    {
+
+        return "full stack";
     }
 
 }
